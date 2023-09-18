@@ -59,10 +59,10 @@ class ScanGeneralState extends State<ScanGeneral>{
       appBar: AppBar(
           backgroundColor: const Color(0xff6C48FF),
           automaticallyImplyLeading: false,
-          title: Row(
+          title: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
+            children: [
               Text('Object Detection', style: TextStyle(
                   fontFamily: 'Martel',
                   fontSize: 25,
